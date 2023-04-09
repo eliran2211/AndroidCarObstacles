@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main_LAYOUT_stoneLayout1" type="id"/>
+    <item name="main_LAYOUT_stoneLayout2" type="id"/>
+    <item name="main_LAYOUT_stoneLayout3" type="id"/>
+    <item name="main_LAYOUT_stoneLayout4" type="id"/>
+    <item name="main_LAYOUT_stoneLayout5" type="id"/>
+    <item name="main_LAYOUT_stoneLayout6" type="id"/>
+
+    <item name="main_IMG_stone00" type="id" />
+    <item name="main_IMG_stone01" type="id" />
+    <item name="main_IMG_stone02" type="id" />
+    <item name="main_IMG_stone10" type="id" />
+    <item name="main_IMG_stone11" type="id" />
+    <item name="main_IMG_stone12" type="id" />
+    <item name="main_IMG_stone20" type="id" />
+    <item name="main_IMG_stone21" type="id" />
+    <item name="main_IMG_stone22" type="id" />
+    <item name="main_IMG_stone30" type="id" />
+    <item name="main_IMG_stone31" type="id" />
+    <item name="main_IMG_stone32" type="id" />
+    <item name="main_IMG_stone40" type="id" />
+    <item name="main_IMG_stone41" type="id" />
+    <item name="main_IMG_stone42" type="id" />
+    <item name="main_IMG_stone50" type="id" />
+    <item name="main_IMG_stone51" type="id" />
+    <item name="main_IMG_stone52" type="id" />
+    <item name="main_IMG_stone60" type="id" />
+    <item name="main_IMG_stone61" type="id" />
+    <item name="main_IMG_stone62" type="id" />
+</resources>

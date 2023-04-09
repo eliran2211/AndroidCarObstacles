@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/ic_img_background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/main_LAYOUT_stones"
+        android:layout_marginHorizontal="80dp"
+      >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_LAYOUT_hearts"
+        android:orientation="horizontal"
+        android:layout_width="140dp"
+        android:layout_height="40dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_icon_heart"
+            android:layout_weight="1"
+            android:id="@+id/main_IMG_heart1" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_icon_heart"
+            android:layout_weight="1"
+            android:id="@+id/main_IMG_heart2"
+            android:layout_marginHorizontal="10dp"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_icon_heart"
+            android:layout_weight="1"
+            android:id="@+id/main_IMG_heart3" />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/main_LAYOUT_car"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="80dp"
+        >
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/main_IMG_car1"
+            android:rotation="180"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_icon_car"
+            />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/main_IMG_car2"
+            android:rotation="180"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_icon_car"
+            />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/main_IMG_car3"
+            android:rotation="180"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_icon_car"
+            />
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/main_FAB_arrowLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:icon="@drawable/ic_icon_arrow"
+        app:iconGravity="start" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/main_FAB_arrowRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        app:icon="@drawable/ic_icon_arrow"
+        android:rotation="180"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
