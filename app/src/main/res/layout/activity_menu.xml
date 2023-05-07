@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/main_LAYOUT_startMenu"
+        android:background="@drawable/ic_img_score_background"
+    >
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Menu"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="#D793E8" />
+
+
+        <ToggleButton
+            android:id="@+id/menu_TOGGLE_speed"
+            android:layout_width="200dp"
+            android:textOff="Slow"
+            android:textOn="Fast"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            />
+
+
+        <Switch
+            android:id="@+id/menu_SWITCH_isSensorMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sensor mode"
+            android:textSize="20dp"
+            android:textColor="#D793E8"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            />
+
+        <EditText
+            android:id="@+id/menu_PLAIN_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:background="#0B8D76"
+            android:singleLine="true"
+            android:textSize="20dp" />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/menu_FAB_startPlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="Play"
+            android:layout_weight="0"
+            android:layout_marginTop="300dp"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

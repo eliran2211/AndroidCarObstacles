@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_img_score_background"
+    android:orientation="vertical"
+    >
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Score Table"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="#D793E8"
+            />
+
+        <FrameLayout
+            android:layout_weight="1"
+            android:id="@+id/score_FRAME_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/score_FRAME_tableScore"
+            />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/score_FAB_playAgain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="0"
+            android:text="Play again"
+            android:textAlignment="center"
+            />
+
+</LinearLayout>

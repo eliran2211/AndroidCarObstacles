@@ -28,4 +28,5 @@
     <item name="main_IMG_stone60" type="id" />
     <item name="main_IMG_stone61" type="id" />
     <item name="main_IMG_stone62" type="id" />
+    <item name="main_FAB_play_again" type="id" />
 </resources>
